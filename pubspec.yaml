@@ -1,0 +1,20 @@
+name: flutter_app
+description: A new Flutter project.
+
+dependencies:
+  http: '>=0.11.3+12'
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - lib/app/data/format.json
