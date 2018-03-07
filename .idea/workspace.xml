@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="690131c4-4f71-4483-a681-4772ec1063d0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/flutter_app.iml" afterPath="$PROJECT_DIR$/flutter_app.iml" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data/data.dart" afterPath="$PROJECT_DIR$/lib/app/data/data.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data/format.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data/imp.dart" afterPath="$PROJECT_DIR$/lib/app/data/imp.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/app/data/mock.dart" afterPath="$PROJECT_DIR$/lib/app/data/mock.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/app/ui/items.dart" afterPath="$PROJECT_DIR$/lib/app/ui/items.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/app/ui/list_view.dart" afterPath="$PROJECT_DIR$/lib/app/ui/list_view.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" afterPath="$PROJECT_DIR$/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/images/1.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -394,12 +384,12 @@
       <updated>1520344270611</updated>
       <workItem from="1520344272882" duration="14717000" />
       <workItem from="1520389957143" duration="1000" />
-      <workItem from="1520389961500" duration="1087000" />
+      <workItem from="1520389961500" duration="1444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15805000" />
+    <option name="totallyTimeSpent" value="16162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="42" width="1106" height="737" extended-state="0" />
