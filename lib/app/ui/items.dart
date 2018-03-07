@@ -15,14 +15,14 @@ class BallItem extends StatelessWidget {
     List<Widget> _widgets = [
       new SizedBox(
         width: 800.0,
-        height: 200.0,
+        height: 150.0,
         child: new Image.network(
           _ball.imageURL
         )
       ),
 
       new Padding(padding:
-          new EdgeInsets.only(top: 10.0,left: 10.0,bottom: 5.0),
+          new EdgeInsets.only(top: 5.0,left: 10.0 , right: 10.0),
         child: new Text(
           _ball.title,
           maxLines: 1,

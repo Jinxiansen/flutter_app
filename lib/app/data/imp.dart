@@ -10,10 +10,6 @@ class RemoteBallRepository implements BallRepository {
 
 
   final JsonDecoder _decoder = new JsonDecoder();
-  
-  Future<String> loadJson() async {
-    return await rootBundle.loadString('lib/app/data/format.json')
-  }
 
   @override
   Future<List<Ball>> fetch() async {

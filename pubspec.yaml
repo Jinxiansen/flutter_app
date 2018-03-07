@@ -16,5 +16,4 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-  assets:
-    - lib/app/data/format.json
+

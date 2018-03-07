@@ -9,7 +9,7 @@ class Ball {
 
   Ball.fromMap(Map<String, dynamic>  map) :
         title = "${map['title']}",
-        imageURL = "${map['image_url']}";
+        imageURL = "${map['thumb']}";
 
 }
 

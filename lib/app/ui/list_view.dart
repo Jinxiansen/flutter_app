@@ -20,7 +20,7 @@ class BallScrollListViewState extends State<BallScrollListView>
 
 //  static const String routeName = "/home";
 
-  final _kHeightItem = 300.0;
+  final _kHeightItem = 250.0;
 
   BallListPresenter _presenter;
   List<Ball> _balls;

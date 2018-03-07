@@ -5,7 +5,7 @@ import 'package:flutter_app/app/app.dart';
 
 
 void main() {
-  Injector.configureData(Data.MOCK);
+  Injector.configureData(Data.REAL);
 
   runApp(new MaterialApp(home: new CookingApp()));
 }
