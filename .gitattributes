@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+*.m linguist-language=Dart
+*.h linguist-language=Dart
+*.swift linguist-language=Dart
+*.dart linguist-language=Dart

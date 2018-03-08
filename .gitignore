@@ -3,7 +3,10 @@
 .idea
 .packages
 .pub/
+.metadata
 build/
+flutter_app.iml
+flutter_app_android.iml
 ios/.generated/
 packages
 pubspec.lock
