@@ -50,7 +50,7 @@ class BallScrollListViewState extends State<BallScrollListView>
     if (_isLoading) {
       widget = new Center(
           child: new Padding(
-              padding: const EdgeInsets.only(left: 16.0, right: 16.0),
+              padding: const EdgeInsets.only(left: 116.0, right: 16.0),
               child: new CircularProgressIndicator()
           )
       );
@@ -64,6 +64,7 @@ class BallScrollListViewState extends State<BallScrollListView>
         widget = new ListView(
             itemExtent: _kHeightItem,
             children: _buildBallsWidgetList()
+
         );
       }
 

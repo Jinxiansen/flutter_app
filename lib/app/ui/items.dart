@@ -9,16 +9,29 @@ class BallItem extends StatelessWidget {
 
   BallItem(this._ball,this._parentView);
 
+
+  void showMyDialog(BuildContext context) {
+
+    AlertDialog dialog = new AlertDialog(actions: <Widget>[
+      new CloseButton(),
+    ],content:new Text( _ball.title + '\n' + _ball.subTitle,
+        textAlign: TextAlign.center,
+        style:new TextStyle(fontSize: 20.0,
+            color: Colors.black54)));
+
+    showDialog(context: context, child: dialog);
+  }
+
   @override
   Widget build(BuildContext context) {
 
     List<Widget> _widgets = [
       new SizedBox(
         width: 800.0,
-        height: 150.0,
+        height: 160.0,
         child: new Image.network(
           _ball.imageURL
-        )
+        ),
       ),
 
       new Padding(padding:
@@ -52,14 +65,18 @@ class BallItem extends StatelessWidget {
       new EdgeInsets.all(10.0),
       child: new Card(
         elevation: 2.5,
-        child: new Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: _widgets,
+        child: new InkWell(
+          onTap: () {
+          print('点击了');
+          showMyDialog(context);
+        },
+          child: new Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: _widgets,
+          ),
         ),
-
       ),
-
     );
   }
 

@@ -4,13 +4,14 @@ class Ball {
 
   final String title;
   final String imageURL;
+  final String subTitle;
 
-  const Ball({this.title, this.imageURL});
+  const Ball({this.title, this.subTitle, this.imageURL});
 
   Ball.fromMap(Map<String, dynamic>  map) :
         title = "${map['title']}",
+        subTitle = "${map['description']}",
         imageURL = "${map['thumb']}";
-
 }
 
 
