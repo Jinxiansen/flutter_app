@@ -1,3 +1,4 @@
 *.m linguist-language=Dart
 *.h linguist-language=Dart
 *.swift linguist-language=Dart
+*.dart linguist-language=Dart
