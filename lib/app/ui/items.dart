@@ -1,6 +1,8 @@
 
 import 'package:flutter_app/app/data/data.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_webview_plugin/flutter_webview_plugin.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BallItem extends StatelessWidget {
 
@@ -9,6 +11,7 @@ class BallItem extends StatelessWidget {
 
   BallItem(this._ball,this._parentView);
 
+  final webViewplugin = new FlutterWebviewPlugin();
 
   void showMyDialog(BuildContext context) {
 
@@ -20,6 +23,8 @@ class BallItem extends StatelessWidget {
             color: Colors.black54)));
 
     showDialog(context: context, child: dialog);
+
+
   }
 
   @override
@@ -49,10 +54,13 @@ class BallItem extends StatelessWidget {
             child: new Text('查看'),
             onPressed: () {
               print('点中了');
-              _parentView.showSnackBar(
-                new SnackBar(content: new Text("并不能查看。😂",textAlign: TextAlign.center )
-                )
-              );
+//              webViewplugin.launch(_ball.imageURL);
+              launch('http://www.baidu.com');
+              
+//              _parentView.showSnackBar(
+//                new SnackBar(content: new Text("并不能查看。😂",textAlign: TextAlign.center )
+//                )
+//              );
             },
           ),
 
