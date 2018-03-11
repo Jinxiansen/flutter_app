@@ -17,13 +17,14 @@ class BallItem extends StatelessWidget {
 
     AlertDialog dialog = new AlertDialog(actions: <Widget>[
       new CloseButton(),
-    ],content:new Text( _ball.title + '\n' + _ball.subTitle,
+    ],title: new Text(_ball.title),
+        contentPadding: new EdgeInsets.only(top: 15.0,left: 10.0,bottom: 1.0,right: 15.0),
+        content:new Text(_ball.subTitle,
         textAlign: TextAlign.center,
-        style:new TextStyle(fontSize: 20.0,
+        style:new TextStyle(fontSize: 17.0,
             color: Colors.black54)));
 
     showDialog(context: context, child: dialog);
-
 
   }
 

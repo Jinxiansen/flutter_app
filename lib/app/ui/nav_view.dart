@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/app/ui/collect_view.dart';
 
 abstract class BottomNavStatus {
 
@@ -30,6 +31,7 @@ class BottomNavState extends State<BottomNavView> {
           title: new Text('首页')),
       new BottomNavigationBarItem(
           icon: new Icon(Icons.favorite),
+
           title: new Text('收藏'))
     ];
   }
@@ -44,6 +46,10 @@ class BottomNavState extends State<BottomNavView> {
           setState((){
             _currentIndex = index;
             _kTapListener.onTapChangeIndex(index);
+            print('当前点击 $index');
+            if (index == 1) {
+              Navigator.of(context).pushNamed(BallCollectView.routeName);
+            }
           });
         }
     );

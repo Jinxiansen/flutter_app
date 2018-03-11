@@ -29,8 +29,7 @@ class CookingAppState extends State<CookingApp> implements BottomNavStatus {
 
     _home = new Scaffold(
         appBar: new AppBar(
-            centerTitle: false,
-            title: new Text("Cooking Mama")
+            title: new Text("flutter 示例")
         ),
         body: _bodyContent,
         bottomNavigationBar: new BottomNavView(this)
@@ -40,7 +39,6 @@ class CookingAppState extends State<CookingApp> implements BottomNavStatus {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-        title: "Cooking Mama",
         theme: _kThemeRoot,
         home: _home
     );

@@ -18,7 +18,7 @@ class BallScrollListView extends StatefulWidget {
 class BallScrollListViewState extends State<BallScrollListView>
     implements BallListViewContract {
 
-//  static const String routeName = "/home";
+  static const String routeName = "/home";
 
   final _kHeightItem = 250.0;
 
