@@ -47,9 +47,9 @@ class BottomNavState extends State<BottomNavView> {
             _currentIndex = index;
             _kTapListener.onTapChangeIndex(index);
             print('当前点击 $index');
-            if (index == 1) {
-              Navigator.of(context).pushNamed(BallCollectView.routeName);
-            }
+//            if (index == 1) {
+//              Navigator.of(context).pushNamed(BallCollectView.routeName);
+//            }
           });
         }
     );
